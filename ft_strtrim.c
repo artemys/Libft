@@ -6,14 +6,14 @@
 /*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 16:28:45 by aliandie          #+#    #+#             */
-/*   Updated: 2014/11/13 15:58:21 by aliandie         ###   ########.fr       */
+/*   Updated: 2019/04/09 16:39:14 by aliandie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 #include "libft.h"
 
-char *ft_strtrim(char const *s)
+char	*ft_strtrim(char const *s)
 {
 	int		start;
 	int		end;

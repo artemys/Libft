@@ -6,7 +6,7 @@
 /*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 16:09:00 by aliandie          #+#    #+#             */
-/*   Updated: 2014/11/13 15:42:40 by aliandie         ###   ########.fr       */
+/*   Updated: 2019/04/09 16:38:16 by aliandie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void		ft_putchar_fd(char c, int fd)
 {
-	write (fd, &c, 1);
+	write(fd, &c, 1);
 }

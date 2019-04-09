@@ -6,13 +6,13 @@
 /*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/19 16:09:59 by aliandie          #+#    #+#             */
-/*   Updated: 2015/03/04 13:38:36 by aliandie         ###   ########.fr       */
+/*   Updated: 2019/04/09 16:38:57 by aliandie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strncmp(const char *s1, const char *s2, size_t n)
+int		ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t			i;
 	unsigned char	*str2;

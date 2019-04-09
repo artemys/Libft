@@ -6,13 +6,13 @@
 /*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/01/30 12:53:00 by aliandie          #+#    #+#             */
-/*   Updated: 2015/01/30 15:37:16 by aliandie         ###   ########.fr       */
+/*   Updated: 2019/04/09 16:30:35 by aliandie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
 	t_list	*new_lst;
 	t_list	*tmp;

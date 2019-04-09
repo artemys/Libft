@@ -6,13 +6,13 @@
 /*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 14:50:48 by aliandie          #+#    #+#             */
-/*   Updated: 2014/11/13 14:59:22 by aliandie         ###   ########.fr       */
+/*   Updated: 2019/04/09 16:29:55 by aliandie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void		ft_striter(char *s, void (*f)(char *))
+void	ft_striter(char *s, void (*f)(char *))
 {
 	int i;
 
